@@ -1,0 +1,71 @@
+ul li{
+    display: inline;
+}
+ul{
+    background-color: brown;
+}
+.header a{
+    padding: 20px;
+    padding-right: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    border-right: 1px white solid;
+}
+h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 50px;
+}
+span{
+    color: azure;
+}
+input{
+    width: 50%;
+}
+#btn{
+    margin-top: 40px;
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: azure;
+    border: 1px azure solid;
+    padding: 8px 10px;
+}
+#inputForm{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 40%;
+    height: 20vh;
+    border: 2px black solid;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: rgba(118, 118, 118, 0.351);
+}
+
+#result{
+    text-align: left;
+    padding: 2%;
+    width: 36%;
+    height: 40vh;
+    border: 2px black solid;
+    border-radius: 20px;
+    display: none;
+    background-color: black;
+}
+.header a:hover{
+ background-color: gray;
+ border: 1px white solid;
+}
+.header{
+    text-align: left;
+    background-color: black;
+    padding: 20px;
+    padding-left: 0px;
+}
+body{
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+}
